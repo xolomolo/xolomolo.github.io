@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        background-color: lightgray;
+      }
+
+      /* Add styling for the selected button */
+      .selected {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Add the text "Are you sad?" -->
+    <h2>  
+Hi Baby, are you sad or felling low?</h2>
+
+    <!-- Add the "Yes" button -->
+    <button id="yes" onclick="document.getElementById('result').innerHTML = 'Call Sumit immediately'; document.getElementById('yes').classList.add('selected'); document.getElementById('no').classList.remove('selected');">Yes</button>
+
+    <!-- Add the "No" button -->
+    <button id="no" onclick="document.getElementById('result').innerHTML = 'Call Sumit'; document.getElementById('yes').classList.remove('selected'); document.getElementById('no').classList.add('selected');">No</button>
+
+    <!-- Add the div to display the result -->
+    <div id="result"></div>
+  </body>
+<br>
+
+<br>
+<html>
+  <body>
+    <!-- Add the link to the YouTube video -->
+    <a href="https://www.youtube.com/watch?v=S_Hgign7m5s">Click here this is for you</a>
+    
+    <!-- Add the footnote -->
+    <br><br>
+    <sup>*</sup> With Love Sushi ♥
+  </body>
+</html>
